@@ -49,7 +49,7 @@ const first64KBOf = async (
   }).finally(() => timer && clearTimeout(timer));
 };
 
-export const fetcher = (
+export const createFetcher = (
   dbx: Dropbox,
   limiter: PromiseLimiter<Buffer>,
   _globalOptions: GlobalOptions,

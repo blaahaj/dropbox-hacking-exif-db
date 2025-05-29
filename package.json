@@ -36,7 +36,8 @@
     ".": "./dist/src/index.js"
   },
   "dependencies": {
-    "@blaahaj/dropbox-hacking-util": "^1.0.1",
+    "@blaahaj/dropbox-hacking-lister": "^1.0.0",
+    "@blaahaj/dropbox-hacking-util": "^1.1.0",
     "dropbox": "^10.34.0",
     "ts-exif-parser": "^0.2.2"
   },
