@@ -4,11 +4,12 @@ import {
   processOptions,
   writeStderr,
 } from "@blaahaj/dropbox-hacking-util";
-import { ExifDB } from "./exifDB.js";
-import { StateDir } from "./stateDir.js";
-import { flush, makeLister } from "./makeLister.js";
 import type { Handler } from "@blaahaj/dropbox-hacking-util/cli";
+
+import { ExifDB } from "./exifDB.js";
 import { TAIL } from "./main.js";
+import { flush, makeLister } from "./makeLister.js";
+import { StateDir } from "./stateDir.js";
 
 export const updateHandler: Handler = async (
   dbxp: DropboxProvider,

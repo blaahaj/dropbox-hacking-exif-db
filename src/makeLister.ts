@@ -1,12 +1,13 @@
-import { type ListerArgs, lister } from "@blaahaj/dropbox-hacking-lister";
+import { lister, type ListerArgs } from "@blaahaj/dropbox-hacking-lister";
 import {
   type GlobalOptions,
   makePromiseLimiter,
 } from "@blaahaj/dropbox-hacking-util";
 import type { Dropbox, files } from "dropbox";
-import type { StateDir } from "./stateDir.js";
 import { ExifParserFactory } from "ts-exif-parser";
+
 import { createFetcher, type Fetcher } from "./fetcher.js";
+import type { StateDir } from "./stateDir.js";
 
 let pendingItems: Promise<void>[] = [];
 

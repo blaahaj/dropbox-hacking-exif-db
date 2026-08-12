@@ -1,12 +1,13 @@
 import { DropboxProvider, GlobalOptions } from "@blaahaj/dropbox-hacking-util";
-import { showHandler } from "./showHandler.js";
-import { initHandler } from "./initHandler.js";
-import { updateHandler } from "./updateHandler.js";
 import {
-  runAsMain,
   type Handler,
   type Operation,
+  runAsMain,
 } from "@blaahaj/dropbox-hacking-util/cli";
+
+import { initHandler } from "./initHandler.js";
+import { showHandler } from "./showHandler.js";
+import { updateHandler } from "./updateHandler.js";
 
 const verb = "exif-cache";
 
