@@ -1,12 +1,13 @@
 import {
-  processOptions,
   type DropboxProvider,
   type GlobalOptions,
+  processOptions,
 } from "@blaahaj/dropbox-hacking-util";
+
 import { ExifDB } from "./exifDB.js";
-import { StateDir } from "./stateDir.js";
-import { flush, makeLister } from "./makeLister.js";
 import { RECURSIVE, TAIL } from "./main.js";
+import { flush, makeLister } from "./makeLister.js";
+import { StateDir } from "./stateDir.js";
 
 export const initHandler = async (
   dbxp: DropboxProvider,

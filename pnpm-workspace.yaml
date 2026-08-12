@@ -1,0 +1,7 @@
+---
+overrides:
+  yargs: ">=17.7.3"
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - "@blaahaj/*"
+trustLockfile: true

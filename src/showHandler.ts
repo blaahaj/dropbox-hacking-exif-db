@@ -4,6 +4,7 @@ import {
   writeStderr,
   writeStdout,
 } from "@blaahaj/dropbox-hacking-util";
+
 import { ExifDB } from "./exifDB.js";
 import { StateDir } from "./stateDir.js";
 
