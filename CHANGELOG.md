@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/blaahaj/dropbox-hacking-exif-db/compare/v1.1.0...v1.2.0) (2026-11-24)
+
+
+### Features
+
+* provides types in their own export ([#9](https://github.com/blaahaj/dropbox-hacking-exif-db/issues/9)) ([537f25a](https://github.com/blaahaj/dropbox-hacking-exif-db/commit/537f25a811ad90fa5b45d559d98f48db243769f1))
+
 ## [1.1.0](https://github.com/blaahaj/dropbox-hacking-exif-db/compare/v1.0.0...v1.1.0) (2025-05-29)
 
 
