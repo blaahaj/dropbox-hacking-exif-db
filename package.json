@@ -10,7 +10,8 @@
     "CHANGELOG.md"
   ],
   "exports": {
-    ".": "./dist/src/index.js"
+    ".": "./dist/src/index.js",
+    "./types": "./dist/src/types.js"
   },
   "main": "index.js",
   "repository": {
@@ -29,8 +30,8 @@
   },
   "dependencies": {
     "@blaahaj/dropbox-hacking-lister": "^1.0.0",
-    "@blaahaj/dropbox-hacking-util": "^1.2.0",
-    "dropbox": "^10.34.0",
+    "@blaahaj/dropbox-hacking-util": "^1.4.0",
+    "dropbox": "^10.45.0",
     "ts-exif-parser": "^0.2.2"
   },
   "devDependencies": {
