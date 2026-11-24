@@ -1,4 +1,7 @@
-import { DropboxProvider, GlobalOptions } from "@blaahaj/dropbox-hacking-util";
+import {
+  type DropboxProvider,
+  GlobalOptions,
+} from "@blaahaj/dropbox-hacking-util";
 import {
   type Handler,
   type Operation,
